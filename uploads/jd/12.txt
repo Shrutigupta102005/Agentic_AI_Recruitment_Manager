@@ -1,0 +1,19 @@
+Job Title: Data Scientist
+
+Company: TechNova AI Pvt. Ltd.
+
+Location: Bengaluru, India
+
+Job Description:
+We are looking for a Data Scientist with experience in machine learning, Python, and data visualization.
+The candidate will work on predictive modeling, NLP, and AI-driven insights.
+
+Required Skills:
+- Python
+- TensorFlow / PyTorch
+- SQL
+- Data Analysis
+- Machine Learning
+
+Experience: 2–5 years
+Education: B.Tech / M.Tech / M.Sc in Computer Science or related field

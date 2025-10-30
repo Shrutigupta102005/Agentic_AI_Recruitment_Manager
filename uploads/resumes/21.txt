@@ -1,0 +1,25 @@
+Name: Aashi Garg
+Email: aashi.garg@email.com
+Phone: +91-9876543210
+Location: New Delhi, India
+
+Profile Summary:
+AI/ML enthusiast with strong skills in Python, Deep Learning, and Data Analysis. Passionate about building models that solve real-world problems.
+
+Education:
+B.Tech in Computer Science, Delhi University, 2024
+
+Technical Skills:
+- Python, TensorFlow, Keras, NumPy, Pandas
+- Machine Learning, Deep Learning
+- SQL, Power BI
+
+Projects:
+1. Brain Tumor Classification using CNN
+2. Sentiment Analysis using NLP
+
+Experience:
+Intern at DataNova AI (3 months) – Built data preprocessing pipelines.
+
+Certifications:
+- Deep Learning Specialization (Coursera)

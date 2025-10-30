@@ -1,0 +1,25 @@
+Software Engineer - Backend
+
+Company: Tech Solutions Inc.
+
+Job Description:
+We are looking for an experienced Backend Developer to join our team.
+
+Requirements:
+- 3-5 years of experience in backend development
+- Strong knowledge of Python, Django, FastAPI
+- Experience with PostgreSQL, MongoDB
+- REST API design and development
+- AWS/Azure cloud experience
+
+Responsibilities:
+- Design and develop scalable backend services
+- Write clean, maintainable code
+- Collaborate with frontend team
+- Code reviews and mentoring
+
+Education:
+Bachelor's degree in Computer Science or related field
+
+Location: Remote
+Salary: $80,000 - $120,000
