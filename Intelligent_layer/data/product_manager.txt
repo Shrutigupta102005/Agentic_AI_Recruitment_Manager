@@ -1,0 +1,99 @@
+Candidate Profile: Product Manager
+
+Name: Michael Chen
+Experience: 5 years
+Location: Mumbai, India
+Current Role: Senior Product Manager at InnovateTech Solutions
+
+Education:
+- MBA from Indian School of Business (ISB) - 2020
+- Bachelor of Engineering in Computer Science from BITS Pilani - 2018
+- Minor in Design Thinking and Innovation
+
+Core Competencies:
+- Product Strategy & Vision
+- Roadmap Planning & Prioritization
+- Stakeholder Management
+- Agile/Scrum Methodologies
+- Data-Driven Decision Making
+- User Research & UX Design
+- Go-To-Market Strategy
+- Cross-Functional Leadership
+
+Technical Skills:
+- Product Management Tools: Jira, Confluence, Asana, Monday.com
+- Design & Prototyping: Figma, Sketch, Miro, Balsamiq
+- Analytics: Google Analytics, Mixpanel, Amplitude, Looker
+- Data Analysis: SQL, Excel (Advanced), Tableau
+- Basic Programming: Python (for data analysis), HTML/CSS
+- A/B Testing: Optimizely, VWO
+- API Understanding: REST APIs, GraphQL basics
+
+Professional Experience:
+
+Current Role - Senior Product Manager (2022 - Present):
+- Managing product roadmap for SaaS platform serving 50,000+ active users
+- Led cross-functional teams of 12 engineers, 3 designers, and 2 QA specialists
+- Launched 3 major features that increased user engagement by 40% and retention by 25%
+- Conducted extensive user research including 50+ customer interviews and surveys
+- Implemented data-driven product development process using OKRs and KPIs
+- Reduced time-to-market by 30% through improved agile processes
+- Managed product P&L with $2M annual budget
+
+Previous Role - Product Manager (2020 - 2022):
+- Owned feature development for mobile application with 200K downloads
+- Coordinated with marketing team for successful product launches
+- Analyzed user behavior data to identify pain points and opportunities
+- Created detailed PRDs, user stories, and acceptance criteria
+- Facilitated sprint planning, daily standups, and retrospectives
+
+Associate Product Manager (2019 - 2020):
+- Supported senior PMs in requirement gathering and documentation
+- Conducted competitive analysis and market research
+- Created wireframes and user flows for new features
+- Managed product backlog and prioritization
+
+Key Achievements:
+1. Product Launch: Led successful launch of AI-powered analytics dashboard, achieving 10K users in first month
+2. Revenue Growth: Implemented freemium pricing model that increased MRR by 60%
+3. User Satisfaction: Improved NPS score from 45 to 72 through user-centric improvements
+4. Process Improvement: Established product ops framework reducing deployment errors by 50%
+
+Domain Expertise:
+- SaaS/B2B Products
+- Enterprise Software
+- AI/ML Products (basic understanding)
+- Fintech Applications
+- Mobile Applications
+
+Certifications:
+- Certified Scrum Product Owner (CSPO)
+- Product Management Certificate from Product School
+- Google Analytics Individual Qualification (GAIQ)
+- Pragmatic Marketing Certified (PMC-III)
+
+Leadership & Soft Skills:
+- Strong strategic thinking and problem-solving abilities
+- Excellent written and verbal communication
+- Proven ability to influence without authority
+- Experience managing stakeholder expectations at all levels (C-suite to engineers)
+- Customer-obsessed mindset
+- Ability to balance user needs, business goals, and technical constraints
+
+Notable Projects:
+- Led digital transformation initiative for legacy product affecting 30K users
+- Spearheaded integration of third-party payment gateway across 5 countries
+- Championed accessibility improvements achieving WCAG 2.1 AA compliance
+
+Speaking & Community:
+- Regular speaker at ProductTank meetups
+- Mentor at ProductSchool and ADPList
+- Wrote 10+ articles on product management published on Medium
+
+Languages:
+- English (Fluent)
+- Hindi (Native)
+- Mandarin (Basic)
+
+Availability: 1 month notice period
+Preferred Work Mode: Hybrid/Remote
