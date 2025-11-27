@@ -1,0 +1,20 @@
+# Core LangChain
+langchain==0.1.0
+
+# OpenAI for embeddings and LLM
+openai==1.6.1
+
+# Vector store (use latest available version)
+faiss-cpu==1.8.0
+
+# Tokenization (required by OpenAI)
+tiktoken==0.5.2
+
+# Additional dependencies
+python-dotenv==1.0.0
+
+# LangChain community package (contains document loaders)
+langchain-community==0.0.10
+
+# LangChain OpenAI integration
+langchain-openai==0.0.2
