@@ -1,0 +1,33 @@
+ob Title: Product Manager
+Experience: 4–6 years
+Location: Hybrid
+
+Responsibilities:
+- Define product vision, strategy, and roadmap aligned with business goals
+- Gather and prioritize product requirements from stakeholders, customers, and market research
+- Work closely with engineering, design, and data teams to deliver high-quality products
+- Conduct user research and analyze user feedback to identify pain points and opportunities
+- Define success metrics and KPIs to measure product performance
+- Manage product lifecycle from ideation to launch and iteration
+- Create and maintain product documentation including PRDs, user stories, and specifications
+- Lead cross-functional meetings and facilitate decision-making processes
+
+Required Skills:
+- 4+ years of product management experience in technology companies
+- Strong analytical and problem-solving skills
+- Excellent communication and stakeholder management abilities
+- Experience with agile development methodologies (Scrum, Kanban)
+- Proficiency in product management tools (Jira, Confluence, Figma, Miro)
+- Data-driven approach to decision making with understanding of analytics tools
+- Ability to translate customer needs into technical requirements
+- Strong presentation and storytelling skills
+
+Bonus Skills:
+- Experience with AI/ML products or SaaS platforms
+- Technical background or engineering degree
+- Knowledge of UX/UI design principles
+- Experience with B2B or enterprise products
+- Familiarity with SQL and data analysis
+- Product management certifications (CSPO, PSPO)
+
+We're looking for a strategic product manager who can balance user needs, business objectives, and technical constraints. You'll be responsible for driving product innovation and ensuring successful delivery of features that delight our users. The ideal candidate is both analytical and creative, with a track record of launching successful products.
