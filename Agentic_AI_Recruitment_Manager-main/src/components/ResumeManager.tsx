@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Upload, FileText, Star, Eye, Trash2, RefreshCw } from 'lucide-react';
+import { Upload, FileText, Loader2, CheckCircle, AlertCircle, Trophy, Star, Eye, Trash2, RefreshCw } from 'lucide-react';
+import { getApiUrl } from '../config';
 import type { Candidate } from '../types';
 
 interface ResumeManagerProps {
@@ -71,7 +72,7 @@ export default function ResumeManager({ candidates, onCandidatesUpdate }: Resume
         return;
       }
 
-      const response = await fetch('/rank', {
+      const response = await fetch(getApiUrl('rank'), {
         method: 'POST',
         body: formData,
       });
@@ -292,9 +293,9 @@ export default function ResumeManager({ candidates, onCandidatesUpdate }: Resume
                             <div className="flex items-center justify-between">
                               <h4 className="text-sm font-semibold text-gray-900">Detailed Analysis</h4>
                               <span className={`px-3 py-1 rounded-full text-xs font-medium ${candidate.score >= 80 ? 'bg-green-100 text-green-800' :
-                                  candidate.score >= 65 ? 'bg-blue-100 text-blue-800' :
-                                    candidate.score >= 50 ? 'bg-yellow-100 text-yellow-800' :
-                                      'bg-red-100 text-red-800'
+                                candidate.score >= 65 ? 'bg-blue-100 text-blue-800' :
+                                  candidate.score >= 50 ? 'bg-yellow-100 text-yellow-800' :
+                                    'bg-red-100 text-red-800'
                                 }`}>
                                 {candidate.analysis.recommendation}
                               </span>

@@ -1,24 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Send, Play, StopCircle, User, Bot, Sparkles } from 'lucide-react';
-import type { Candidate, Interview } from '../types';
-
-interface InterviewAgentProps {
-  candidates: Candidate[];
-  interviews: Interview[];
-  onCandidatesUpdate: (candidates: Candidate[]) => void;
-  onInterviewsUpdate: (interviews: Interview[]) => void;
-}
-
-interface Message {
-  id: string;
-  role: 'interviewer' | 'candidate';
-  content: string;
-  timestamp: string;
-  evaluation?: {
-    score: number;
-    feedback: string;
-  };
-  questionNumber?: number;
+evaluation ?: {
+  score: number;
+  feedback: string;
+};
+questionNumber ?: number;
 }
 
 interface InterviewSession {
@@ -68,7 +52,7 @@ export default function InterviewAgent({
 
       const skillsArray = skills.split(',').map(s => s.trim()).filter(s => s);
 
-      const response = await fetch('/api/interview/start', {
+      const response = await fetch(getApiUrl('api/interview/start'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -88,7 +72,7 @@ export default function InterviewAgent({
       const data = await response.json();
 
       // Fetch full session details
-      const sessionResponse = await fetch(`/api/interview/session/${data.sessionId}`);
+      const sessionResponse = await fetch(getApiUrl(`api/interview/session/${data.sessionId}`));
       const sessionData = await sessionResponse.json();
 
       setSession(sessionData.session);
@@ -106,7 +90,7 @@ export default function InterviewAgent({
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/interview/answer', {
+      const response = await fetch(getApiUrl('api/interview/answer'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -124,7 +108,7 @@ export default function InterviewAgent({
       const data = await response.json();
 
       // Fetch updated session
-      const sessionResponse = await fetch(`/api/interview/session/${session.id}`);
+      const sessionResponse = await fetch(getApiUrl(`api/interview/session/${session.id}`));
       const sessionData = await sessionResponse.json();
 
       setSession(sessionData.session);
@@ -153,7 +137,7 @@ export default function InterviewAgent({
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/interview/end', {
+      const response = await fetch(getApiUrl('api/interview/end'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -178,7 +162,7 @@ export default function InterviewAgent({
       onCandidatesUpdate(updatedCandidates);
 
       // Refresh session
-      const sessionResponse = await fetch(`/api/interview/session/${session.id}`);
+      const sessionResponse = await fetch(getApiUrl(`api/interview/session/${session.id}`));
       const sessionData = await sessionResponse.json();
       setSession(sessionData.session);
     } catch (error) {

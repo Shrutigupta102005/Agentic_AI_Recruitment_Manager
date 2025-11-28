@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FileText, Wand2, Copy, Download } from 'lucide-react';
+import { Loader2, Briefcase, FileText, CheckCircle, AlertCircle, Wand2, Copy, Download } from 'lucide-react';
+import { getApiUrl } from '../config';
 
 export default function JobGenerator() {
   const [requirements, setRequirements] = useState('');
@@ -15,7 +16,7 @@ export default function JobGenerator() {
     setIsGenerating(true);
 
     try {
-      const response = await fetch('/generate-jd', {
+      const response = await fetch(getApiUrl('generate-jd'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
