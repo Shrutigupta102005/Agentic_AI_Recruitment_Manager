@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "cd Agentic_AI_Recruitment_Manager-main && npm install && npm run build"
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
