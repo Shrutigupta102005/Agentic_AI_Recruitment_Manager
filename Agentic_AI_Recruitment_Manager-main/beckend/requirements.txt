@@ -1,0 +1,8 @@
+flask
+flask-cors
+ollama
+scikit-learn
+PyPDF2
+python-docx
+gunicorn
+werkzeug
