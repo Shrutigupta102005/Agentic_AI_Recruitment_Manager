@@ -22,8 +22,7 @@ interface Message {
   questionNumber?: number;
 }
 
-interface InterviewSession {
-  id: string;
+
 
 interface InterviewSession {
   id: string;
