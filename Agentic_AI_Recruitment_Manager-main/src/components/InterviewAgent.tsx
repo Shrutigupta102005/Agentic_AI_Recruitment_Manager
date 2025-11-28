@@ -1,9 +1,29 @@
-evaluation ?: {
-  score: number;
-  feedback: string;
-};
-questionNumber ?: number;
+import React, { useState, useRef, useEffect } from 'react';
+import { Send, Play, StopCircle, User, Bot, Sparkles, Mic, Square, Loader2, AlertCircle } from 'lucide-react';
+import type { Candidate, Interview } from '../types';
+import { getApiUrl } from '../config';
+
+interface InterviewAgentProps {
+  candidates: Candidate[];
+  interviews: Interview[];
+  onCandidatesUpdate: (candidates: Candidate[]) => void;
+  onInterviewsUpdate: (interviews: Interview[]) => void;
 }
+
+interface Message {
+  id: string;
+  role: 'interviewer' | 'candidate';
+  content: string;
+  timestamp: string;
+  evaluation?: {
+    score: number;
+    feedback: string;
+  };
+  questionNumber?: number;
+}
+
+interface InterviewSession {
+  id: string;
 
 interface InterviewSession {
   id: string;
